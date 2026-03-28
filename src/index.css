@@ -4,10 +4,13 @@
 @theme {
     --font-poppins: "Poppins", sans-serif;
 }
-
 body {
-    @apply bg-white text-slate-800 text-sm font-poppins antialiased;
+  @apply bg-white text-slate-800 text-sm font-poppins antialiased overflow-x-hidden;
 }
+
+/* body {
+    @apply bg-white text-slate-800 text-sm font-poppins antialiased;
+} */
 
 button {
     @apply cursor-pointer;
