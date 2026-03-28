@@ -17,16 +17,17 @@ const Navbar = () => {
     <header className="fixed top-3 md:top-4 left-1/2 -translate-x-1/2 w-[92%] max-w-7xl z-50">
       <div className="rounded-[24px] border border-white/40 bg-white/80 backdrop-blur-xl shadow-[0_12px_40px_rgba(15,23,42,0.08)] overflow-hidden">
         <div className="flex items-center justify-between h-16 md:h-[72px] px-4 sm:px-5 md:px-6">
-          <a href="#home" className="flex items-center gap-2.5 min-w-0">
-            <img
-              src="/Storly-Tran.png"
-              alt="Storly Logo"
-              className="h-9 w-9 sm:h-10 sm:w-10 rounded-xl object-contain shrink-0"
-            />
-            <span className="font-extrabold text-lg sm:text-xl leading-none bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Storly
-            </span>
-          </a>
+         <a href="#home" className="flex items-center gap-2.5 min-w-0">
+  <img
+    src="/Storly-Trasn.png"
+    alt="Storly Logo"
+    className="h-9 w-9 sm:h-10 sm:w-10 rounded-xl object-contain shrink-0"
+  />
+  <span className="font-extrabold text-lg sm:text-xl leading-none text-[#2d2bbf]">
+    Storly
+  </span>
+</a>
+
 
           <nav className="hidden lg:flex items-center gap-1 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 rounded-full px-2 py-1 shadow-inner">
             {navLinks.map((link) => (
