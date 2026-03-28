@@ -7,6 +7,14 @@
 body {
   @apply bg-white text-slate-800 text-sm font-poppins antialiased overflow-x-hidden;
 }
+html {
+  overflow-x: hidden;
+}
+html, body {
+  overflow-x: hidden;
+}
+
+
 
 /* body {
     @apply bg-white text-slate-800 text-sm font-poppins antialiased;
